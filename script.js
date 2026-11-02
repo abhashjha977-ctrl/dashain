@@ -5,11 +5,11 @@ const progressFill = document.querySelector('.progress-fill');
 const progressIndex = document.querySelector('.progress-index');
 
 const ritualData = [
-  { kicker: '01 / planting', name: 'Jamara', description: 'Life begins in a dark room, then reaches for the light.', accessibility: 'Close-up of golden jamara grass and vermilion tika powder arranged on a brass thali.', image: '/manus-storage/async-images/w3IpARSIUsgYJDt0T8xqPx/image-2.webp' },
-  { kicker: '02 / blessing', name: 'Tika', description: 'Red, rice, yoghurt — a small mark carrying a whole family’s good wishes.', accessibility: 'A family gathered in warm light as an elder prepares a Dashain tika blessing.', image: '/manus-storage/async-images/w3IpARSIUsgYJDt0T8xqPx/image-2.webp' },
-  { kicker: '03 / arrival', name: 'Phulpati', description: 'The sacred arrives from the hills in a procession of flowers, leaves and memory.', accessibility: 'Temple silhouettes and a Dashain family scene beneath Himalayan dusk and drifting kites.', image: '/manus-storage/async-images/w3IpARSIUsgYJDt0T8xqPx/image-1.webp' },
-  { kicker: '04 / skyward', name: 'Ping', description: 'A bamboo swing turns the season into a dare: higher, lighter, again.', accessibility: 'A traditional bamboo swing silhouetted against misty Himalayan foothills.', image: '/manus-storage/async-images/w3IpARSIUsgYJDt0T8xqPx/image-3.webp' },
-  { kicker: '05 / gathering', name: 'Feast', description: 'Plates pass. Stories stretch. Nobody leaves the table unchanged.', accessibility: 'A festive Dashain gathering with warm food, jamara and family seated together.', image: '/manus-storage/async-images/w3IpARSIUsgYJDt0T8xqPx/image-3.webp' }
+  { kicker: '01 / planting', name: 'Jamara', description: 'Life begins in a dark room, then reaches for the light.', accessibility: 'Close-up of golden jamara shoots and a tika offering on a brass platter.', image: '/assets/images/jamara.webp' },
+  { kicker: '02 / blessing', name: 'Tika', description: 'Red, rice, yoghurt — a small mark carrying a whole family’s good wishes.', accessibility: 'An elder in traditional dress applying a red tika to a young girl.', image: '/assets/images/tika.webp' },
+  { kicker: '03 / arrival', name: 'Phulpati', description: 'The sacred arrives from the hills in a procession of flowers, leaves and memory.', accessibility: 'A richly decorated Bhadrakali temple entrance in Kathmandu during Dashain.', image: '/assets/images/phulpati.webp' },
+  { kicker: '04 / skyward', name: 'Ping', description: 'A bamboo swing turns the season into a dare: higher, lighter, again.', accessibility: 'A bamboo Dashain swing silhouetted against a glowing sunset in Nepal.', image: '/assets/images/ping.webp' },
+  { kicker: '05 / gathering', name: 'Feast', description: 'Plates pass. Stories stretch. Nobody leaves the table unchanged.', accessibility: 'A traditional Dashain feast spread with beaten rice, sweets, fruits and jamara.', image: '/assets/images/feast.webp' }
 ];
 const dayData = [
   ['Day 01 / Ghatasthapana', 'A pot of earth is seeded with barley. In the dark, something tender begins.'],
